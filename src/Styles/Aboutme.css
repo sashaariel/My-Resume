@@ -1,0 +1,64 @@
+.Aboutme {
+      margin-top: 100px;
+}
+
+.Aboutme-container {
+    width: 1000px;
+    margin: auto;
+        
+    }
+
+.Aboutme-text {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    
+}
+
+.Aboutme-text h2 {
+    font-size: 40px;
+    letter-spacing: 2px;
+    *color: rgb(222, 6, 241);
+    color: rgb(65, 63, 63);
+    font-weight: bold;
+ }
+
+ .Aboutme-text p{
+    font-size: 17px;
+    padding: 50px 40px;    
+    text-align: left;
+    
+ }
+
+.Aboutme-icons{
+    color: rgb(80, 78, 78);
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    
+}
+
+.About-icon {
+    color: blueviolet;
+    margin-top: 5px;
+}
+
+.Aboutme-icons p{
+margin: 0px 20px 10px 5px;
+
+}
+
+.Aboutme-image {
+    width: 100%;
+    
+    
+}
+
+.Aboutme-image img{
+    width: 350px;
+       display: block;
+    margin: auto;
+    padding-bottom: 80px;
+}

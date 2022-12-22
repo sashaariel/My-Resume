@@ -1,0 +1,67 @@
+.Contactme {
+    background-image: url('../img/ondas.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+        
+   
+   
+}
+.contact-title{
+    display: grid;
+    place-items: center;
+    padding-top: 300px;
+    padding-bottom: 30px;
+    width: 1000px;
+    margin: auto;
+}
+
+.contact-title h2 {
+    font-size: 40px;
+    letter-spacing: 1px;
+    color: rgb(56, 56, 56);
+    font-weight: bold;
+}
+
+.container-contact-icons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    padding: 0px 0px 100px 0px;
+    width: 1000px;
+    margin: auto;
+
+
+}
+
+.container-contact-icons div a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.icon-contact {
+    width: 70px;
+    height: 70px;
+    padding: 12px 0 0 0;
+    margin: 10px;
+}
+
+.linkedin:hover{
+    color: rgb(0, 81, 255);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.mail:hover{
+    color: rgb(255, 60, 0);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.github-contact:hover{
+    color: rgb(204, 0, 255);
+    transition: 0.2s;
+    cursor: pointer;
+
+}

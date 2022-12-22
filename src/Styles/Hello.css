@@ -1,0 +1,57 @@
+.container-cover {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: rgb(249, 228, 255);
+
+}
+
+.cover {
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+
+}
+
+.text-cover {
+    width: 100%;
+    padding-right: 150px;
+
+}
+
+
+.text-cover h1 {
+    font-size: 70px;
+    color: rgb(0, 0, 0);
+}
+
+.cover-image {
+    width: 100%;
+}
+
+.cover-image img {
+    width: 550px;
+}
+
+.btn-resume {
+    display: block;
+    width: 150px;
+    margin: 40px 0px 0px 60px;
+    padding: 10px 20px ;
+    text-align: center;
+    font-weight: 500;
+    color: white;
+    background-color: rgb(222, 6, 241);
+    border-radius: 8px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: all 300ms;
+    text-decoration: none;
+}
+
+.btn-resume:hover {
+    background-color: transparent;
+    border: 2px solid rgb(222, 6, 241);
+    color: rgb(222, 6, 241)
+}

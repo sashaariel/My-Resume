@@ -1,0 +1,102 @@
+.container-skills{
+    
+    width: 1000px;
+    margin: auto;
+}
+.title-skills {
+    display: grid;
+    place-items: center;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+.title-skills h2 {
+    font-size: 40px;
+    letter-spacing: 3px;
+    color: rgb(65, 63, 63);
+    font-weight: bold;
+}
+.container-skills-and-img{
+    display: flex;
+}
+
+.container-skills-icons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 5px;
+    padding: 25px 0px 100px 0px;
+    width: 70%;
+    margin: auto;
+
+}
+
+.container-skills-icons p{
+    display: grid;
+    place-items: center;
+}
+
+.icono-skils {
+    width: 100px;
+    height: 100px;
+    padding: 12px 0 0 0;
+    margin: 10px;
+}
+
+.html:hover {
+    color: orangered;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.css:hover {
+    color: rgb(0, 132, 255);
+    transition: 0.2s;
+    cursor: pointer;
+
+}
+
+.bootstrap:hover{
+    color: rgb(140,12,251);
+    transition: 0.2s;
+    cursor: pointer;
+
+}
+
+.js:hover{
+    color: rgb(243,227,27);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.react:hover{
+    color: rgb(27, 243, 225);
+    transition: 0.2s;
+    cursor: pointer;
+}
+.github:hover{
+    color: rgba(3, 3, 3, 0.356);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.git:hover{
+    color: rgb(252, 115, 4);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.aws:hover{
+    color: rgb(252, 115, 4);
+    transition: 0.2s;
+    cursor: pointer;
+}
+.img-skills-container{
+    display: grid;
+    place-items: center;
+    
+}
+
+.img-skills{
+    width: 400px;
+}
